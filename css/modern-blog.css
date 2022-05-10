@@ -55,6 +55,10 @@
 	background: #fff;
 }
 
+.card__content ul{
+	font-size: 19px;
+}
+
 .card__container--closed .card__content {
 	margin-top: 0;
 	padding: 0 16px;
