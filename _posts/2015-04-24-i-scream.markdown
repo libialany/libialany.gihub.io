@@ -24,10 +24,10 @@ DNS Server en DigitalOcean fue lo que mas me ayudo a entender del tema.
 _Cosas que aprendi_
 
 
-- Tipos de Record [Que son los Tipos de records](https://wizardzines.com/comics/dns-record-types/),los usaba pero no lo sabia con precision.
+Tipos de Record [Que son los Tipos de records](https://wizardzines.com/comics/dns-record-types/),los usaba pero no lo sabia con precision.
 
 
-- Configuracion de DNS Servers (Solo una clase)
+Configuracion de DNS Servers (Solo una clase)
 
 
 - CoreDNS

@@ -54,7 +54,9 @@
 	padding: 30px 40px 22px;
 	background: #fff;
 }
-
+a {
+ color: rgb(27, 27, 255);
+}
 .card__content ul{
 	font-size: 19px;
 }
