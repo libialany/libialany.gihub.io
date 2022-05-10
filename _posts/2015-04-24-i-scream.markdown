@@ -7,21 +7,21 @@ image: "img/dns.jpg"
 date:   2022-04-08 
 ---
 
-## Como aprendi sobre DNS Server
+ Como aprendi sobre DNS Server
 
-### _Que es lo queria_ 
+_Que es lo queria_ 
 
 Tenia una proyecto en mente con contenedores  no funciono, pero si habia una solucion reforzar bases , lo primero que me puse a pensar montar algo facil pero que pueda ser utilizado.
 
 Decidi ver al personaje mas conocido relacionado al tema [PeladoNerd](https://youtu.be/tE9YjEV1T4E) ,queria implementarlo pero a mi forma, donde yo conocia mas ;( sin contenedores .
 
 
-### _Como se convirtio todo_
+_Como se convirtio todo_
 
 DNS Server en DigitalOcean fue lo que mas me ayudo a entender del tema.
 
 
-### _Cosas que aprendi_
+_Cosas que aprendi_
 
 - Tipos de Record [Que son los Tipos de records](https://wizardzines.com/comics/dns-record-types/),los usaba pero no lo sabia con precision.
 
@@ -29,7 +29,7 @@ DNS Server en DigitalOcean fue lo que mas me ayudo a entender del tema.
 
 - CoreDNS
 
-### _Cosas que realizar_
+_Cosas que realizar_
 
 - Aprender Kubernetes : para poder dar un uso mas requerido.
 
