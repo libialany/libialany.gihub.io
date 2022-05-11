@@ -1,44 +1,109 @@
 ---
-title:  "I need some DNS Server"
-subtitle: "DNS Server mi historia"
-author: "Wferr"
+title:  "Bloqueo de Ip con NGINX  basado en el Codigo de Pais "
+subtitle: "Conociendo un poco del modulo mod-http-geoip.conf"
+author: "Melany Estevez C."
 avatar: "img/authors/wferr.png"
 image: "img/dns.jpg"
 date:   2022-04-08 
 ---
 
- Como aprendi sobre DNS Server
+Vamos aprender un poco mas sobre Nginx,parte por parte,el Sitema Operativo que estoy utilizando es Ubuntu 20.0.
 
-_Que es lo queria_ 
+_Prerequisitos_ 
 
-Tenia una proyecto en mente con contenedores  no funciono, pero si habia una solucion reforzar bases , lo primero que me puse a pensar montar algo facil pero que pueda ser utilizado.
-
-Decidi ver al personaje mas conocido relacionado al tema [PeladoNerd](https://youtu.be/tE9YjEV1T4E) ,queria implementarlo pero a mi forma, donde yo conocia mas ;( sin contenedores .
-
-
-_Como se convirtio todo_
-
-DNS Server en DigitalOcean fue lo que mas me ayudo a entender del tema.
-
-
-_Cosas que aprendi_
-
-
-Tipos de Record [Que son los Tipos de records](https://wizardzines.com/comics/dns-record-types/),los usaba pero no lo sabia con precision.
-
-
-Configuracion de DNS Servers (Solo una clase)
+tener instalado nginx.
 
 ```
-- CoreDNS
+apt install nginx
+
 ```
 
-_Cosas que realizar_
+para verificar:
+
+```
+which nginx
+```
+
+instalar el modulo geoip.
+
+```
+sudo apt install libnginx-mod-http-geoip geoip-database
+
+```
+
+para verificar si el modulo se ha instalado .
+
+```
+ls /etc/nginx/modules-enabled/
+```
+
+_Configuracion_
+
+1. El primer archivo a modificar es /etc/nginx/nginx.conf, si husmeaste alguna vez todo el archivo veras que se llaman otros files como **sites-enabled** , **sites-available** ,**etc** .Por lo tanto es lo mismo si realizas la configuracion en este file o lo realizas en los demas como el **default**.
+
+```
+sudo nano /etc/nginx/nginx.conf
+
+```
+ahora configuramos dentro de la etiqueta http{}.
+
+```
+http{
+   #todo el codigo
+   #ponlo al final 
+   geoip_country /usr/share/GeoIP/GeoIP.dat;
+    map $geoip_country_code $allowed_country {
+        default yes;
+        AO no;
+   }
+}
+```
+
+**default** yes = todos estaran permitidos, **AO** (Angola) no = es el pais que no estara admitido, en otro caso 
+**default** no  = nadie esta permitido, **AO** (Angola) yes = el unico pais admitido, 0_o puedes poner mas paises si deseas te dejo la  <a href="https://dev.maxmind.com/geoip/legacy/codes" style="color: red; text-decoration: underline;text-decoration-style: dotted;">lista de codigos</a>.
 
 
-- Aprender Kubernetes : para poder dar un uso mas requerido.
+2. El segundo archivo es /etc/nginx/sites-available/default ,donde establecemos la condicional que admite o rechaza la ip.
+
+```
+sudo nano /etc/nginx/sites-available/default
+```
+
+dentro de la seccion de location /{}.
+
+```
+location / {
+  #codigo
+  if ($allowed_country = no){
+    return 444;
+  }
+}
+
+```
+
+ahora reenviara un mensaje de 444 ,_A 444 No Response error indica que el  server ha cerrado la coneccion y no retorna informacion a la request del cliente_.
+
+3. Reiniciar Nginx.
+
+antes de reiniciar verifica que no tengas fallas de sintaxis.
+
+```
+nginx -t
+```
+
+reinicia el servicio de nginx.
+
+```
+sudo systemctl restart nginx
+```
+Por ultimo puedes verificar entrando a la pagina.
+
+**EXTRA**
+
+acerca de los modulos  son realizados para la distribucion debian :eyes: .
 
 
+ 
 
 Photo by Bogdan Feldiorean on Unsplash
 
