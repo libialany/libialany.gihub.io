@@ -29,9 +29,9 @@ Tipos de Record [Que son los Tipos de records](https://wizardzines.com/comics/dn
 
 Configuracion de DNS Servers (Solo una clase)
 
-
+```
 - CoreDNS
-
+```
 
 _Cosas que realizar_
 
