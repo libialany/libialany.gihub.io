@@ -9,7 +9,7 @@ date:   2022-04-08
 
 
 
-Vamos aprender un poco mas sobre Nginx,parte por parte,el Sitema Operativo que estoy utilizando es Ubuntu 20.0.
+<p style="font-size: 14px;">Vamos aprender un poco mas sobre Nginx,parte por parte,el Sitema Operativo que estoy utilizando es Ubuntu 20.0.</p>
 
 
 _Prerequisitos_ 
@@ -100,7 +100,7 @@ Por ultimo puedes verificar entrando a la pagina.
 
 **EXTRA**
 
-acerca de los modulos  son realizados para la distribucion debian :eyes: .
+acerca de los modulos  son realizados para la distribucion debian 👀.
 
 
  
