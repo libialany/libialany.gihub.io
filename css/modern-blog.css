@@ -1,5 +1,12 @@
 .card__content code{
-background:rgb(255, 250, 240);
+  background-color:rgb(255, 250, 240);
+}
+
+.card__content pre code {
+  background-color:rgb(255, 250, 240);
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
 }
 /*CARD */
 
