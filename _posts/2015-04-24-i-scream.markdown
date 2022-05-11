@@ -7,7 +7,10 @@ image: "img/dns.jpg"
 date:   2022-04-08 
 ---
 
+
+
 Vamos aprender un poco mas sobre Nginx,parte por parte,el Sitema Operativo que estoy utilizando es Ubuntu 20.0.
+
 
 _Prerequisitos_ 
 
@@ -15,7 +18,6 @@ tener instalado nginx.
 
 ```
 apt install nginx
-
 ```
 
 para verificar:
@@ -28,7 +30,6 @@ instalar el modulo geoip.
 
 ```
 sudo apt install libnginx-mod-http-geoip geoip-database
-
 ```
 
 para verificar si el modulo se ha instalado .
@@ -43,7 +44,6 @@ _Configuracion_
 
 ```
 sudo nano /etc/nginx/nginx.conf
-
 ```
 ahora configuramos dentro de la etiqueta http{}.
 
