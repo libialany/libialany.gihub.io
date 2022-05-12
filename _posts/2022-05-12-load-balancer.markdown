@@ -43,11 +43,11 @@ _Estructura_
 |        --> nginx.conf
 | docker-compose.yml
 ```
-  1. app1/Dockerfile construye la aplicacion app1.py
+  <p> 1. app1/Dockerfile construye la aplicacion app1.py </p>
 
-  2. app2/Dockerfile construye la aplicacion app2.py
+  <p> 2. app2/Dockerfile construye la aplicacion app2.py </p>
 
-  3. Ahora si explicamos la configuracion de Nginx
+  <p> 3. Ahora si explicamos la configuracion de Nginx </p>
 
 ```
 nano nginx/default.conf 
@@ -95,7 +95,7 @@ ip a | grep docker0
 <a href="https://argus-sec.com/docker-networking-behind-the-scenes/" style="color: red; text-decoration: underline;text-decoration-style: dotted;">mas sobre networking en docker</a> 😁.
 
 
- 4.  **docker-compose.yml**, en el contenedor de nginx solo le pasaremos nuestro archivos por volumenes 😅.
+ <p> 4. **docker-compose.yml**, en el contenedor de nginx solo le pasaremos nuestro archivos por volumenes</p> 😅.
 
 ```
   nginx:
