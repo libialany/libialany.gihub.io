@@ -1,5 +1,5 @@
 ---
-title:  "Load Balancer con Nginx and Docker"
+title:  "Load Balancer con Nginx y Docker"
 subtitle: "Conociendo un poco de Nginx"
 author: "Melany Estevez C."
 avatar: "img/authors/wferr.png"
@@ -43,11 +43,11 @@ _Estructura_
 |        --> nginx.conf
 | docker-compose.yml
 ```
-1. app1/Dockerfile construye la aplicacion app1.py
+  1. app1/Dockerfile construye la aplicacion app1.py
 
-2. app2/Dockerfile construye la aplicacion app2.py
+  2. app2/Dockerfile construye la aplicacion app2.py
 
-3. Ahora si explicamos la configuracion de Nginx
+  3. Ahora si explicamos la configuracion de Nginx
 
 ```
 nano nginx/default.conf 
@@ -95,7 +95,7 @@ ip a | grep docker0
 <a href="https://argus-sec.com/docker-networking-behind-the-scenes/" style="color: red; text-decoration: underline;text-decoration-style: dotted;">mas sobre networking en docker</a> 😁.
 
 
-4.  **docker-compose.yml**, en el contenedor de nginx solo le pasaremos nuestro archivos por volumenes 😅.
+ 4.  **docker-compose.yml**, en el contenedor de nginx solo le pasaremos nuestro archivos por volumenes 😅.
 
 ```
   nginx:
@@ -125,4 +125,4 @@ verificar entrando a...
 
 **EXTRA**
 
-nota es importante conocer de networking con docker 👀.
+nota es importante conocer de networking con docker 👀,thanks.
