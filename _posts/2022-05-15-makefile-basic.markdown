@@ -90,7 +90,7 @@ build:
       @docker build . -t ${name} --build-arg alp_ver=${alpver} --build-arg fil_ver=${filver}
 ```
 
-- Antes de la etiqueta debemos poder la bandera .PHONY.
+- Antes de la etiqueta debemos poner la bandera .PHONY.
 
 ```
 .PHONY: build
