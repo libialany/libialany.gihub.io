@@ -110,7 +110,7 @@ ip a | grep docker0
       - app1
       - app2
 ```
-esto es solo un fragmento del docker-compose.yml , si quieres todo <a href="https://github.com/libialany/load-balancer/blob/main/docker-compose.yml" style="color: red; text-decoration: underline;text-decoration-style: dotted;">mas del codigo de este mini-tutorial</a>.
+esto es solo un fragmento del docker-compose.yml , si quieres todo <a href="https://github.com/libialany/Nginx/tree/main/loadBalancer" style="color: red; text-decoration: underline;text-decoration-style: dotted;">mas del codigo de este mini-tutorial</a>.
 
 Por ultimo ,levantemos todo nuestros contenedores.
 
