@@ -14,7 +14,7 @@ date:   2022-05-15
 
 _Intro_ 
 
-El uso de un makefile nos puede ayudar en el caso de actualizaciones de versiones de archivos,por que los makefiles tienen tasks(tareas|comandos) que  deseas ejecutar.
+El uso de un makefile nos puede ayudar en el caso de actualizaciones de versiones de archivos,por que los makefiles tienen tasks(tareas o comandos) que  deseas ejecutar.
 
 `make` es el comando, el `makefile` es el archivo que se ejecutara.
 

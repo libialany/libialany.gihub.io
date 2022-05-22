@@ -1,16 +1,0 @@
---2022-05-08 20:41:42--  https://unsplash.com/photos/Z4HjV8LZFT4/download?ixid=MnwxMjA3fDB8MXxhbGx8OXx8fHx8fDJ8fDE2NTIwNTQ0NTI
-Resolving unsplash.com (unsplash.com)... 151.101.193.181, 151.101.65.181, 151.101.129.181, ...
-Connecting to unsplash.com (unsplash.com)|151.101.193.181|:443... connected.
-HTTP request sent, awaiting response... 302 Found
-Location: https://images.unsplash.com/photo-1651959396074-bbaf315263dd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb [following]
---2022-05-08 20:41:44--  https://images.unsplash.com/photo-1651959396074-bbaf315263dd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb
-Resolving images.unsplash.com (images.unsplash.com)... 2a04:4e42:1::720, 151.101.6.208
-Connecting to images.unsplash.com (images.unsplash.com)|2a04:4e42:1::720|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 2625847 (2.5M) [image/jpeg]
-Saving to: ‘download?ixid=MnwxMjA3fDB8MXxhbGx8OXx8fHx8fDJ8fDE2NTIwNTQ0NTI’
-
-          download?   0%[                    ]       0  --.-KB/s                        download?i   3%[                    ]  87.37K   433KB/s                       download?ix  10%[=>                  ] 263.33K   630KB/s                      download?ixi  10%[=>                  ] 279.33K   269KB/s                     download?ixid  20%[===>                ] 519.30K   387KB/s                    download?ixid=  23%[===>                ] 615.30K   268KB/s                   download?ixid=M  26%[====>               ] 679.30K   255KB/s                  download?ixid=Mn  34%[=====>              ] 887.30K   307KB/s                 download?ixid=Mnw  37%[======>             ] 951.30K   306KB/s    eta 5s      download?ixid=Mnwx  44%[=======>            ]   1.12M   344KB/s    eta 5s     download?ixid=MnwxM  52%[=========>          ]   1.32M   383KB/s    eta 5s     ownload?ixid=MnwxMj  61%[===========>        ]   1.54M   421KB/s    eta 5s     wnload?ixid=MnwxMjA  70%[=============>      ]   1.76M   456KB/s    eta 5s     nload?ixid=MnwxMjA3  78%[==============>     ]   1.98M   487KB/s    eta 1s     load?ixid=MnwxMjA3f  87%[================>   ]   2.19M   516KB/s    eta 1s     oad?ixid=MnwxMjA3fD  95%[==================> ]   2.40M   539KB/s    eta 1s     download?ixid=MnwxM 100%[===================>]   2.50M   543KB/s    in 4.7s    
-
-2022-05-08 20:41:54 (543 KB/s) - ‘download?ixid=MnwxMjA3fDB8MXxhbGx8OXx8fHx8fDJ8fDE2NTIwNTQ0NTI’ saved [2625847/2625847]
-
