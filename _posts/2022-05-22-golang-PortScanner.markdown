@@ -91,6 +91,7 @@ Un canal puede ser varios tipos:int,string ,struct,etc.Debes inicializarle un va
 La Sincronizacion ,cuando ejecutamos una goroutina no esperamos a que acabe , si  usamo __sync__   la libreria podemos asegurar que 
 nuestras goroutines acaben.
 
+Son 4 palabras clave son un ciclo no pueden ser omitidas.
 
 ```
 
@@ -108,15 +109,11 @@ nuestras goroutines acaben.
 	wg.Wait()
 ```
 
-Son 4 palabras clave son un ciclo no pueden ser omitidas.
-
 __Analogia__
 
 Para asegurarnos de no quemar o falta de coccion de nuestro comida podemos poner un timer(alarma).
 
-```
 
-```
 
 **PortScanner**
 
