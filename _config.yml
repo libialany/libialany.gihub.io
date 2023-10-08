@@ -1,3 +1,5 @@
+plugins:
+  - jekyll-feed
 # Site settings
 title: Libia Projects 
 description: I love the Silence 
