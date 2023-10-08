@@ -9,7 +9,7 @@ date:   2023-10-08 12:12:12
 
 ### Introduction
 
-As a passionate blogger who loves both writing and maintaining a blog on GitHub Pages, you know that managing your blog can be a rewarding yet time-consuming endeavor. The good news is that you can streamline your blogging workflow and save precious time through automation using GitHub Actions. In this article, we'll explore how to automate your blog post deployment on GitHub Pages, making your blogging journey smoother and more efficient.
+<p style="font-size: 15px;">As a passionate blogger who loves both writing and maintaining a blog on GitHub Pages, you know that managing your blog can be a rewarding yet time-consuming endeavor. The good news is that you can streamline your blogging workflow and save precious time through automation using GitHub Actions. In this article, we'll explore how to automate your blog post deployment on GitHub Pages, making your blogging journey smoother and more efficient.</p>
 
 ### I. Requirements
 

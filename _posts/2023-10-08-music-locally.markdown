@@ -8,7 +8,7 @@ date:   2023-10-8 12:12:12
 ---
 
 ### Description
-In today's digital age, music is more accessible than ever before. With streaming services and online music platforms dominating the industry, we often rely on third-party providers to enjoy our favorite tunes. But what if I told you there's a way to take full control of your music library and listening experience? Enter self-hosted music players – the ultimate solution for music enthusiasts who crave independence and customization.
+<p style="font-size: 15px;">In today's digital age, music is more accessible than ever before. With streaming services and online music platforms dominating the industry, we often rely on third-party providers to enjoy our favorite tunes. But what if I told you there's a way to take full control of your music library and listening experience? Enter self-hosted music players – the ultimate solution for music enthusiasts who crave independence and customization.</p>
 
 ### Requirements
 - Docker
