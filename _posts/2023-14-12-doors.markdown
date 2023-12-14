@@ -1,0 +1,57 @@
+---
+title:  "Doors!"
+subtitle: "Ways to connect remotly"
+author: "Wferr"
+avatar: "img/authors/wferr.png"
+image: "img/a.jpg"
+date:   2023-14-12 12:12:12
+---
+
+### Description
+<p style="font-size: 15px;">
+
+### Requirements
+
+- Tailscale
+
+### Getting Started 
+
+- Port Forwarding 
+
+  - Redireccion de Puertos 
+
+- Aplicaciones Port Forwarding
+ 
+  - Remote SSH
+  
+  - **Tailscale**
+
+- Materiales
+
+  - Raspberry
+  
+  - Local Machine
+
+*Nota* Instalar tailscale en ambos. 
+
+### Setup
+
+
+>Raspberry
+
+```bash
+tailscale up  # promt a url
+tailscale status
+```
+copia el url
+
+>Local Machine
+
+1. Pega el url en el browser.
+
+### Lastly
+
+I like to try new things
+I love Open Source.
+
+
