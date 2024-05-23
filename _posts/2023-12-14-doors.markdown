@@ -3,7 +3,7 @@ title:  "Doors!"
 subtitle: "Ways to connect remotly"
 author: "Lib"
 avatar: "img/authors/wferr.png"
-image: "img/a.jpg"
+image: "img/tailscale.jpg"
 date:   2023-12-14 12:30:12
 ---
 

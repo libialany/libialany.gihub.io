@@ -3,7 +3,7 @@ title:  "Self-Hosting Your Music Player!"
 subtitle: "Empower Your Music Experience"
 author: "Lib"
 avatar: "img/authors/wferr.png"
-image: "img/a.jpg"
+image: "img/music.jpg"
 date:   2023-10-8 12:30:39
 ---
 
