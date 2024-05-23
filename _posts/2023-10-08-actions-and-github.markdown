@@ -1,7 +1,7 @@
 ---
 title:  "Automate Your Blog Posts with GitHub Actions"
 subtitle: "Streamlining Your Blogging Workflow"
-author: "Wferr"
+author: "Lib"
 avatar: "img/authors/wferr.png"
 image: "img/b.jpg"
 date:   2023-10-08 12:12:12

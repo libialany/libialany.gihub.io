@@ -1,7 +1,7 @@
 ---
 title:  "RDS EC2"
 subtitle: "Dummy steps in AWS"
-author: "Wferr"
+author: "Lib"
 avatar: "img/authors/wferr.png"
 image: "img/c.jpg"
 date:   "2022-09-29"
