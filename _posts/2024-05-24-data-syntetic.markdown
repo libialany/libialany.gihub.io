@@ -1,9 +1,9 @@
 ---
-title:  "I ssyntethic!"
-subtitle: "Can i trus in this data"
+title:  "Is synthetic!"
+subtitle: "Important points"
 author: "Lib"
 avatar: "img/authors/wferr.png"
-image: "img/cars.jpg"
+image: "img/data-syntetic.jpg"
 date:   2024-05-23 11:30:00
 ---
 
