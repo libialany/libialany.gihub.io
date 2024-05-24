@@ -3,12 +3,12 @@ title:  "Doors!"
 subtitle: "Ways to connect remotly"
 author: "Lib"
 avatar: "img/authors/wferr.png"
-image: "img/tailscale.jpg"
+image: "img/data-syntetic.jpg"
 date:   2023-12-14 12:30:12
 ---
 
 ### Description
-<p style="font-size: 15px;">
+<p style="font-size: 15px;">This post is incomplete please move to another, i forgot what i wanted to write</p>
 
 ### Requirements
 
