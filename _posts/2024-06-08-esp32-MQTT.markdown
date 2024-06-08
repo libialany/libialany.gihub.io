@@ -1,0 +1,61 @@
+---
+title:  "Esp32 and MQTT!"
+subtitle: "IoT Weather Monitoring"
+author: "Lib"
+avatar: "img/authors/wferr.png"
+image: "img/esp32.png"
+date:   2024-06-08 12:30:00
+---
+
+### Description
+<p style="font-size: 15px;">
+The ESP32 microcontroller and the DHT22 sensor are a dynamic duo, i learn about weather monitoring applications. This article delves into their interaction and integration, shedding light on how they work together to collect and transmit weather data effectively.
+</p>
+
+## Understanding the ESP32 Microcontroller
+
+I blogged about this before in my latest post, please check it.
+
+## Introducing the DHT22 Sensor
+
+The DHT22 sensor, also known as the DHT22 or AM2302, is a high-precision sensor capable of measuring both temperature and humidity. Its digital output provides accurate readings with minimal calibration required. The sensor operates on a single-wire communication protocol, making it easy to integrate into microcontroller-based projects. The DHT22 sensor is well-suited for weather monitoring applications.
+
+## Interaction between ESP32 and DHT22 Sensor
+
+The ESP32 and DHT22 sensor interact seamlessly to collect weather data and transmit it to a central system for analysis and visualization. Here's how their interaction typically unfolds:
+
+- Initialization: The ESP32 initializes communication with the DHT22 sensor by configuring the appropriate GPIO pins for data exchange.
+
+- Data Acquisition: The ESP32 triggers the DHT22 sensor to start measuring temperature and humidity. The sensor converts these measurements into digital signals and transmits them back to the ESP32.
+
+- Data Processing: Upon receiving the data from the DHT22 sensor, the ESP32 processes it to extract temperature and humidity values. It may perform additional calculations or filtering to ensure data accuracy.
+
+- Transmission: Once the data is processed, the ESP32 transmits it to a designated endpoint, such as a cloud server or a local display unit. This transmission can occur via Wi-Fi or Bluetooth, leveraging the ESP32's built-in connectivity options.
+
+- Visualization and Analysis: I use the serial console to print the values.
+
+## Integration of ESP32 and DHT22 Sensor
+
+Here's a brief overview of the integration process:
+
+- Hardware Setup: Connect the DHT22 sensor to the ESP32 microcontroller using appropriate GPIO pins. 
+
+- Software Configuration: Write code for the ESP32 microcontroller to initialize communication with the DHT22 sensor and read data from it. 
+
+
+## Conclusion
+
+This is a beginner personal project, the ESP32-DHT22 can provide a versatile platform for building innovative projects.
+
+## GitLab Project
+
+link: https://gitlab.com/-/ide/project/esp32_esp8266/esp32_mqtt
+
+## Lastly
+
+I love to learn few of my Esp32 🖍️
+
+
+
+
+
