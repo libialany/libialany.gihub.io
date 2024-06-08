@@ -24,6 +24,7 @@ The DHT22 sensor, also known as the DHT22 or AM2302, is a high-precision sensor 
 
 The ESP32 and DHT22 sensor interact seamlessly to collect weather data and transmit it to a central system for analysis and visualization. Here's how their interaction typically unfolds:
 
+<p> 
 - Initialization: The ESP32 initializes communication with the DHT22 sensor by configuring the appropriate GPIO pins for data exchange.
 
 - Data Acquisition: The ESP32 triggers the DHT22 sensor to start measuring temperature and humidity. The sensor converts these measurements into digital signals and transmits them back to the ESP32.
@@ -34,14 +35,17 @@ The ESP32 and DHT22 sensor interact seamlessly to collect weather data and trans
 
 - Visualization and Analysis: I use the serial console to print the values.
 
+</p>
+
 ## Integration of ESP32 and DHT22 Sensor
 
 Here's a brief overview of the integration process:
 
+<p>
 - Hardware Setup: Connect the DHT22 sensor to the ESP32 microcontroller using appropriate GPIO pins. 
 
 - Software Configuration: Write code for the ESP32 microcontroller to initialize communication with the DHT22 sensor and read data from it. 
-
+</p>
 
 ## Conclusion
 
