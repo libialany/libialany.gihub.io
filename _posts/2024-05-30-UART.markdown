@@ -1,0 +1,44 @@
+---
+title:  "UART Communication"
+subtitle: "Connecting Devices Simplified"
+author: "Lib"
+avatar: "img/authors/wferr.png"
+image: "img/proyecto-esp32-00.jpg"
+date:   2024-05-30 08:30:00
+---
+
+### Description
+<p style="font-size: 15px;">
+Curious to learn more about data transmission protocols, I performed UART/serial communication between two ESP32 boards using the UART hardware library of the Arduino IDE. I debugged this using 2 esp32 and a LED. The serial port, known as Universal Asynchronous Receiver/Transmitter (UART) Communication, is widely used for most sensors and systems. To share workload, information, and perform various tasks, communication between two ESP32 boards is sometimes necessary.
+</p>
+
+## Hadware
+
+<p>
+- 330 ohm resistor
+- 2 ESP32 boards
+- Protoboard
+- Wires
+</p>
+
+## Steps:
+
+Follow the provided sketch and diagram.
+
+<img width="300" height="200" src="../img/diagrama00.png">
+
+We only transmit a single character (1 or 0). However, you can extend this to send longer messages. This is the result of this project.
+
+<img width="400" height="500" src="../img/proyecto-esp32-01.jpg">
+
+## Conclusion:
+
+This project is an excellent starting point for learning the basics of communication. There are other protocols, such as I2C and SPI, which I discussed in a podcast. Here is the link: 🫴 [The shorcut podcast](https://soundcloud.com/the_tech_shortcut/esp32comunication?si=0e658fe75fe8432c810ccb9f3f064750&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
+
+## Lastly
+
+Never give up your dreams...
+
+
+
+
