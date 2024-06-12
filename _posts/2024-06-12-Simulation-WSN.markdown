@@ -3,7 +3,7 @@ title:  "Simulation WSN!"
 subtitle: "WSN comuniication!"
 author: "Lib"
 avatar: "img/authors/wferr.png"
-image: "img/project-solar-energy.png"
+image: "img/project-solar-energy.jpg"
 date:   2024-06-12 08:30:00
 ---
 
