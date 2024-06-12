@@ -18,7 +18,9 @@
 	margin: 2%;
 	padding-bottom: 20%;
 }
-
+.card:hover {
+	transform: scale(1.05);
+}
 .card__container {
 	position: fixed;
 	top: 0;
